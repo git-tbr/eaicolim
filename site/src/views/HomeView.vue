@@ -105,7 +105,7 @@
                                     <div class="card">
                                         <img :src="ep.e_cover" class="card-img-top" alt="...">
                                         <div class="card-body bg-secondary text-white">
-                                            <p class="card-text">#{{ ep.e_id }} - {{ ep.e_title }}</p>
+                                            <p class="card-text">{{ ep.e_title }}</p>
                                         </div>
                                     </div>
                                 </div>

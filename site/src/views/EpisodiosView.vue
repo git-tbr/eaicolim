@@ -14,7 +14,7 @@
                         <img :src="ep.e_cover" class="w-100 mb-3" alt="...">
                         <div class="text-white">
                             <p class="text-center fs-4 fw-bold">
-                                E aí, Colim? #{{ ep.e_id }} - {{ ep.e_title }}
+                                E aí, Colim? {{ ep.e_title }}
                             </p>
                             <p class="text-center">
                                 <font-awesome-icon class="fs-5" icon="fa-solid fa-calendar-week" /> &nbsp; {{ dateFormat(ep.e_date) }}

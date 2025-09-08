@@ -4,7 +4,7 @@
         <section class="container my-5">
             <div class="text-light">
                 <h2 class="fw-bold">
-                    E AÍ, COLIM? #{{ id }} - {{ title }}
+                    E AÍ, COLIM? {{ title }}
                 </h2>
             </div>
             <div class="row g-3">
