@@ -1,0 +1,33 @@
+html{
+  font-size: 16px;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+#app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  margin-top: auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-blue {
+    background-color: #0051D5;
+    color: white;
+}
+
+.bg-darkblue {
+    background-color: #051733;
+    color: white;
+}
